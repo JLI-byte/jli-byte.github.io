@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>R00K Steward</title>
+<style>
+  :root { --bg: #fbfaf7; --text: #1d1d1b; --muted: #5b5a55; --line: #e4e1d8; --accent: #2f5d50; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #161615; --text: #ecebe6; --muted: #a8a69e; --line: #2c2b28; --accent: #8cc4b3; } }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 48px 16px 64px; }
+  h1 { font-size: 2rem; margin: 0 0 4px; }
+  h2 { font-size: 1.1rem; margin: 32px 0 8px; }
+  p.lead { color: var(--muted); margin: 0 0 24px; }
+  ul { padding-left: 20px; }
+  a { color: var(--accent); }
+  footer { border-top: 1px solid var(--line); margin-top: 40px; padding-top: 16px; color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>R00K Steward</h1>
+  <p class="lead">A personal inbox and calendar helper that runs on one person's own PC.</p>
+
+  <h2>What it is</h2>
+  <p>R00K Steward is part of R00K, a private AI app made by one person for their own use. It is not a public service: nobody else can sign up, and it is not sold or shared.</p>
+
+  <h2>What it does</h2>
+  <ul>
+    <li>Reads new mail in the owner's own Gmail accounts.</li>
+    <li>Adds labels, such as Bills, Needs reply or Receipts.</li>
+    <li>Writes draft replies into the owner's Gmail Drafts folder. It never sends mail by itself.</li>
+    <li>Reads the owner's Google Calendar, and adds an event only when the owner says yes.</li>
+    <li>Archives, deletes or unsubscribes only when the owner says yes, or by a rule the owner made.</li>
+  </ul>
+
+  <h2>Google permissions it asks for</h2>
+  <ul>
+    <li><strong>Gmail (read, label, draft):</strong> <code>gmail.modify</code></li>
+    <li><strong>Calendar events:</strong> <code>calendar.events</code></li>
+  </ul>
+
+  <p>Read the <a href="privacy.html">privacy policy</a> to see where the data goes.</p>
+
+  <footer>Contact: jimilisome@gmail.com</footer>
+</main>
+</body>
+</html>
